@@ -3,9 +3,9 @@ package com.siemens.lesson5.inheritance;
 public class Application {
 	
 	public static void displayShape(Shape shape) {
-		System.out.println(shape);
-		System.out.println(shape.area());
-		System.out.println(shape.perimeter());
+		System.out.println("shape:" + shape);
+		System.out.println("area:" + shape.area());
+		System.out.println("perimeter:" + shape.perimeter());
 		System.out.println();
 	}
 	
@@ -15,5 +15,8 @@ public class Application {
 		
 		Square square = new Square(5);
 		displayShape(square);
+		
+		Circle c1 = new Circle(2);
+		displayShape(c1);	
 	}
 }
