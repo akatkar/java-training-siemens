@@ -8,6 +8,7 @@ public class Square extends Rectangular {
 
 	@Override
 	public String toString() {
-		return "Square [height=" + height + ", width=" + width + "]";
+		String s = super.toString();
+		return s + "Square [height=" + height + ", width=" + width + "]";
 	}
 }

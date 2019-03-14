@@ -22,6 +22,6 @@ public class Rectangular extends Shape {
 
 	@Override
 	public String toString() {
-		return "Rectangular [height=" + height + ", width=" + width + "]";
+		return "["+ super.toString()+ "]Rectangular [height=" + height + ", width=" + width + "]";
 	}
 }
